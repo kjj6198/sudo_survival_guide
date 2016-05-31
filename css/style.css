@@ -318,6 +318,9 @@ h5 {
   width: 90%;
   height: 400px;
 }
+.article em {
+  color: #f00;
+}
 .article .topic_text {
   background-repeat: no-repeat;
   font-size: 25px;
@@ -694,14 +697,12 @@ time:after {
 .fixed_position:after {
   top: 10px;
 }
-/*
- *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
 @font-face {
   font-family: 'FontAwesome';
   font-weight: normal;
   font-style: normal;
+  src: url("fonts/fontawesome-webfont.eot?v=#4.0.3");
+  src: url("fonts/fontawesome-webfont.eot?#iefix&v=#4.0.3") format("embedded-opentype"), url("fonts/fontawesome-webfont.woff?v=#4.0.3") format("woff"), url("fonts/fontawesome-webfont.ttf?v=#4.0.3") format("truetype"), url("fonts/fontawesome-webfont.svg#fontawesomeregular?v=#4.0.3") format("svg");
 }
 .fa {
   display: inline-block;
